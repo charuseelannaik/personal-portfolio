@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Projects</title>
+</head>
+<body>
+<h1>Project List</h1>
+<ul>
+<% projects.forEach(project => { %>
+<li><%= project.name %> - <%= project.description %></li>
+<% }) %>
+</ul>
+</body>
+</html>

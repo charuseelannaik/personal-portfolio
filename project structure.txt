@@ -1,0 +1,16 @@
+personal-portfolio/
+│
+├── public/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── server/
+│ ├── db.js
+│ └── server.js
+│
+├── views/
+│ └── projects.ejs
+│
+├── package.json
+└── README.md
